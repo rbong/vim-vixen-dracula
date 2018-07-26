@@ -16,50 +16,44 @@ $console-line-height:  16.5px;
 
 // color settings
 
-$dracula-bg:             #282A36;
-$dracula-fg:             #F8F8F2;
-$dracula-black:          #000000;
-$dracula-red:            #FF5555;
-$dracula-green:          #50FA7B;
-$dracula-yellow:         #F1FA8C;
-$dracula-purple:         #BD93F9;
-$dracula-magenta:        #FF79C6;
-$dracula-cyan:           #8BE9FD;
-$dracula-gray:           #BFBFBF;
-$dracula-light-black:    #4D4D4D;
-$dracula-light-red:      #FF6E67;
-$dracula-light-green:    #5AF78E;
-$dracula-light-yellow:   #F4F99D;
-$dracula-light-purple:   #CAA9FA;
-$dracula-light-magenta:  #FF92D0;
-$dracula-light-cyan:     #9AEDFE;
-$dracula-light-gray:     #E6E6E6;
+$dracula-bg:       #282a36;
+$dracula-line:     #44475a;
+$dracula-sel:      #44475a;
+$dracula-fg:       #f8f8f2;
+$dracula-comment:  #6272a4;
+$dracula-cyan:     #8be9fd;
+$dracula-green:    #50fa7b;
+$dracula-orange:   #ffb86c;
+$dracula-pink:     #ff79c6;
+$dracula-purple:   #bd93f9;
+$dracula-red:      #ff5555;
+$dracula-yellow:   #f1fa8c;
 
-$hint-bg:      $dracula-light-magenta;
-$hint-fg:      $dracula-black;
-$hint-border:  1px solid $dracula-light-magenta;
+$hint-bg:      $dracula-cyan;
+$hint-fg:      $dracula-bg;
+$hint-border:  1px solid $dracula-cyan;
 
 $console-border: none;
 
 $completion-bg:       $dracula-bg;
-$completion-fg:       $dracula-fg;
-$completion-item-bg:  $dracula-light-black;
+$completion-fg:       $dracula-comment;
+$completion-item-bg:  $dracula-sel;
 $completion-url-fg:   $dracula-cyan;
 
-$title-bg: $dracula-purple;
-$title-fg: $dracula-black;
+$title-bg: $dracula-line;
+$title-fg: $dracula-purple;
 
-$message-border-top: 1px solid $dracula-gray;
+$message-border-top: 1px solid $dracula-line;
 
 $error-bg: $dracula-red;
-$error-fg: $dracula-black;
+$error-fg: $dracula-bg;
 
 $info-bg: $dracula-bg;
 $info-fg: $dracula-cyan;
 
-$command-bg:          $dracula-light-black;
+$command-bg:          $dracula-line;
 $command-fg:          $dracula-fg;
-$command-border-top:  1px solid $dracula-gray;
+$command-border-top:  1px solid $dracula-line;
 
 // concatenated copy of the orignal style source files
 
