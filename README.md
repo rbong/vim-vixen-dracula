@@ -33,7 +33,7 @@ ls ~/.mozilla/firefox
 if you just want to build the styles and add it manually:
 
 ```bash
-npm run install
+npm run build
 ```
 
 ## Customizing
